@@ -1,0 +1,98 @@
+/* Google font */
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 300 to 800 */
+
+/* scaling factor = 0.45 */
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* shared style */
+.text-primary {
+  color: orange;
+}
+
+.dark-2 {
+  color: black;
+}
+
+.btn-primary {
+  background-color: orange;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 18px 30px;
+  border-radius: 5px;
+}
+
+/* header */
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+/* nav styles */
+nav {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 180px;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+/* banner styles */
+.banner {
+  display: flex;
+
+  justify-content: space-between;
+  /* margin: 0 (35 * 0.45) px 0 (200 * 0.45) px; */
+  margin: 0 35 px 0 200 px;
+}
+
+.banner-content {
+  /* max-width: (580 * 0.45) px; */
+  max-width: 580px;
+}
+
+.banner-greetings {
+  /* font-size: (45 * 0.45) px; */
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title {
+  /* font-size: (85 * 0.45) px; */
+  font-size: 85px;
+  font-weight: bold;
+}
+
+.banner-profile-pic {
+  width: 605px;
+  /* height: 676px; */
+}
