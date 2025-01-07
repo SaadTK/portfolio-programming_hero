@@ -30,7 +30,7 @@
 }
 
 .btn-primary {
-  background-color: orange;
+  background-color: #fd6e0a;
   font-size: 15px;
   font-weight: bold;
   color: white;
@@ -89,7 +89,7 @@ nav li a {
 .banner {
   display: flex;
 
-  justify-content: space-around;
+  justify-content: space-between;
   /* margin: 0 (35 * 0.45) px 0 (200 * 0.45) px; */
   margin: 0 35 px 0 200 px;
 }
@@ -97,6 +97,7 @@ nav li a {
 .banner-content {
   /* max-width: (580 * 0.45) px; */
   max-width: 580px;
+  margin-left: 90px;
 }
 
 .banner-greetings {
@@ -155,4 +156,31 @@ main section {
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section */
+
+.resume-container {
+  display: flex;
+
+  gap: 24px;
+}
+
+.experience-sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.experience-description,
+.experience-sub-title {
+  color: #757575;
+}
+
+.resume hr {
+  margin: 30px 5px;
+}
+
+.resume-download-cv {
+  margin-top: 50px;
 }
